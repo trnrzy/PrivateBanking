@@ -1,4 +1,4 @@
-package main.java.model;
+package main.java.com.trnrzy.web.model;
 
 public class Magasin {
 	

@@ -92,7 +92,7 @@
 	    		</div>
     		</div>
     	</div>
-		<div class="row centered-form">
+		<div hidden="1" class="row centered-form">
 			<div class="col-xs-14 col-sm-10 col-md-5 col-sm-offset-2 col-md-offset-4">
         		<div class="panel panel-default">
         			<div class="panel-heading">

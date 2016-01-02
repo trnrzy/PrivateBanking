@@ -18,10 +18,10 @@
 </head>
 
 <body>
-
 	<div class="container">
+	<jsp:include page="navbar.jsp" />
         <div class="row centered-form">
-        	<div class="col-xs-14 col-sm-10 col-md-5 col-sm-offset-2 col-md-offset-4">
+        	<div class="col-xs-12 col-sm-10 col-md-6 col-sm-offset-4 col-md-offset-3">
         		<div class="panel panel-default">
         			<div class="panel-heading">
 			    		<h3 class="panel-title text-center">Please add your new ticket </h3>
@@ -55,7 +55,7 @@
 		    					<div class="col-xs-4 col-sm-4 col-md-4">
 		    						<div class="form-group">
 		    							 <div class="input-group">
-		    								<input type="text" name="totalAmount" id="totalAmount" class="form-control input-sm" placeholder="Amount">
+		    								<input type="number" step="any" min="0" name="totalAmount" id="totalAmount" class="form-control input-sm" placeholder="Amount">
 		    								<div class="input-group-addon input-sm floatlabel "><i class="glyphicon glyphicon-euro"></i></div>
 		    							</div>
 		    						</div>
@@ -63,7 +63,7 @@
 		    					
 		    					<div class="col-xs-3 col-sm-3 col-md-3">
 		    						<div class="form-group">
-		    							<input type="number" name="totalProducts" id="totalProducts" class="form-control input-sm" placeholder="Total">
+		    							<input type="number" min ="0" max ="100" name="totalProducts" id="totalProducts" class="form-control input-sm" placeholder="Total">
 		    						</div>
 		    					</div>
 		    				

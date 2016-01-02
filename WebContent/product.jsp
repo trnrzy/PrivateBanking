@@ -18,8 +18,9 @@
 </head>
 <body>
 	<div class="container">
+		<jsp:include page="navbar.jsp" />	
 		<div class="row centered-form">
-			<div class="col-xs-14 col-sm-10 col-md-5 col-sm-offset-2 col-md-offset-4">
+			<div class="col-xs-14 col-sm-10 col-md-6 col-sm-offset-2 col-md-offset-3">
         		<div class="panel panel-default">
         			<div class="panel-heading">
 			    		<h3 class="panel-title text-center">Please add your products </h3>
@@ -31,7 +32,7 @@
 			    			
 		    				<div class="form-group">
 		    					<select class="form-control" name="magasin" id="magasin" class="form-control input-sm">
-		    						<option value='simply' selected>SIMPLY_datetime_34€_12</option>
+		    						<option value='simply' selected>SIMPLY_datetime_34_12</option>
 		    						<option value='lidl'>LIDL</option>
 		    						<option value='boulanger'>BOULANGER DU COIN</option>
 		    						<option value='boulanger'>BOULANGER BAGUETTE</option>

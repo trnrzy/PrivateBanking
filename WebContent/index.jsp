@@ -17,7 +17,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
 </head>
 	<body>
-		<h2>Index Page</h2>
-		<a href="ticket.jsp">Ticket Page</a>
+		<div class="container">
+			<jsp:include page="navbar.jsp" />
+		</div>	
 	</body>
 </html>

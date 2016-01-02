@@ -14,7 +14,7 @@ body{
 }
 
 .centered-form{
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .centered-form .panel{
@@ -32,4 +32,7 @@ label.label-floatlabel {
 	color: #46b8da;
 }
 
+.navbar-inverse{
+	margin-top: 30px;
+}
 #datepicker > span:hover{cursor: pointer;}

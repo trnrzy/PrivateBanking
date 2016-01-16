@@ -14,7 +14,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
     	
-      <a class="navbar-brand" href="#"><span> class="glyphicon glyphicon-briefcase"</span> Private Banking</a>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-briefcase"></span> Private Banking</a>
     </div>
     <div>
       <ul class="nav navbar-nav">
